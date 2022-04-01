@@ -1,0 +1,120 @@
+body {
+    background-image: url(image.jpg);
+    background-size: cover;
+  }
+  .signup-box {
+    background-color: rgb(203 146 102 / 41%);
+  } 
+   .signup-box {
+    display: none;
+  } 
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  h4 {
+    text-align: center;
+  }
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .form-control label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .form-control input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+  }
+  .btn{
+    width: 360px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(173 68 40 / 84%);
+    color: black;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+    color: black;
+    font-size: 18px;
+  }
+  .para-2 {
+    color: b;
+  }
+  .login-box {
+    width: 400px;
+  
+    max-height: fit-content;
+    margin: auto;
+    border-radius: 3px;
+    background-color: rgb(203 146 102 / 41%);
+    margin-top: 50px;
+  }
+.form-control input:focus {
+      outline: 0;
+      border-color:rgb(7, 26, 77) ;
+
+  }
+  .form-control.success input{
+border-color: #48c3e9;
+  }
+  .form-control.error input{
+border-color: rgb(228, 11, 11);
+  }
+  .form-control{
+      position: relative;
+  }
+  .form-control i{
+      position: absolute;
+      right: 8px;
+      top: 30px;
+      visibility: hidden;
+  }
+.form-control small{
+    visibility: hidden;
+    color: rgb(228, 11, 11);
+
+
+}
+.form-control.success i.fa-circle-check{
+    color: #48c3e9;
+
+    
+    visibility: visible;
+
+}
+.form-control.error i.fa-exclamation{
+    color: rgb(228, 11, 11);
+    visibility: visible;
+
+}
+.form-control.error small{
+    visibility: visible;
+    
+
+} 
+.btn2{
+    width: 360px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(173 68 40 / 84%);
+    color: black;
+    font-size: 18px;
+  }
