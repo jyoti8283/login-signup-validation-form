@@ -25,21 +25,23 @@ body {
     font-size: 18px;
   }
   .form-control input {
-    width: 100%;
+    /* width: 100%; */
+    width: 335px;
     padding: 7px;
     border: none;
     border: 1px solid grey;
-    border-radius: 6px;
+    border-radius: 7px;
     outline: none;
   }
   .btn{
-    width: 360px;
+    width: 351px;
     height: 35px;
     margin-top: 20px;
     border: none;
     background-color: rgb(173 68 40 / 84%);
     color: black;
     font-size: 18px;
+    border-radius: 7px;
   }
   p {
     text-align: center;
@@ -53,16 +55,17 @@ body {
     margin-top: -10px;
     color: black;
     font-size: 18px;
+    padding-bottom: 10px;
   }
   .para-2 {
     color: b;
   }
   .login-box {
-    width: 400px;
+    width: 390px;
   
     max-height: fit-content;
     margin: auto;
-    border-radius: 3px;
+    border-radius: 20px;
     background-color: rgb(203 146 102 / 41%);
     margin-top: 50px;
   }
@@ -118,3 +121,6 @@ border-color: rgb(228, 11, 11);
     color: black;
     font-size: 18px;
   }
+.para-3{
+  padding-bottom: 10px;
+}
